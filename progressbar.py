@@ -24,6 +24,7 @@ if __name__ == "__main__":
     #     time.sleep(0.1)
     #     update_progress(i/100.0)
     x = 0
-    while x < 10000:
+    while x < 100:
         x += random.randint(0,10)
-        update_progress(x/10000)
+        time.sleep(0.1)
+        update_progress(x/100)
